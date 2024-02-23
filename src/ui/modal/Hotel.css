@@ -1,0 +1,39 @@
+.hotel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Распределение блоков по ширине контейнера */
+  }
+  
+ 
+  .hotel-block {
+    
+    margin-top: 30px;
+    width: 30%; /* Ширина блока гостиницы */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  .hotel-block::after{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    transform: skew(-30deg);
+    transform-origin:top;
+}
+  
+  .hotel-block:hover{
+    transform: scale(1.2);
+  }
+  .hotel-block h2 {
+    margin-top: 0;
+  }
+  
+  .hotel-block p {
+    margin-bottom: 10px;
+  }
+  

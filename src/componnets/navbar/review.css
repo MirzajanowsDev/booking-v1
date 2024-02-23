@@ -1,0 +1,8 @@
+.view-card img{
+    width: 50px;
+    background: #9c9696;
+    border-radius: 50%;
+}
+.view-card {
+    padding: 10px;
+}

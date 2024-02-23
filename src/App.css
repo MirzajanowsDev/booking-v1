@@ -1,7 +1,198 @@
-.App {
-  text-align: center;
+*{
+  
+  transition:0.4s !important;
 }
 
+.sidebar{
+  overflow-y: auto;
+  height:400px;
+  background: #e5e7eb !important;
+
+}
+::-webkit-scrollbar {
+  width: 2px;
+  scrollbar-color:#ba9e9e;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3179c3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+.sidebar-li:hover{
+  cursor: pointer;
+  background: #f7f7f7;;
+  border-radius:10px
+}
+.content-article{
+  display: flex;
+  
+}
+.burger{
+  display: none;
+}
+.modals__overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.783);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal__content{
+  position: absolute;
+  background: #fbfbfb;
+  display: flex;
+  width: 100vh;
+  height: 90vh;
+  justify-content: space-between;
+  border-radius: 10px;
+  z-index: 100;
+  
+}
+.sidebar_profile{
+  border-right: 1px solid rgb(180, 180, 180);
+  display: flex;
+  flex-direction: column;
+}
+.btn-closer{
+  top: 0;
+  right: 0;
+  margin: 10px;
+
+}
+.profile{
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  
+}
+.profile:hover{
+  cursor: pointer;
+  background: #c9c9c9;
+  border-radius:10px;
+}
+.fa-arrow-down.active{
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991.98px) {
+  .content-article{
+    flex-direction: column-reverse;
+  }
+  .abouts{
+    flex-direction: column;
+  }
+  .payment {
+    max-width: 100% !important;
+  }
+  .modal__content{
+    display: block;
+    width: 80vh;
+  }
+  .sidebar_profile{
+    flex-direction: row;
+    border: none;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .burger{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .burger.active{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .burger span:first-child{
+    width: 30px;
+    height: 3px;
+    background: #ffffff;
+    margin-bottom:4px ;
+  }
+  .burger span:last-child{
+    width: 30px;
+    height: 3px;
+    background: #ffffff;
+    margin-bottom: px;
+  }
+  .burger span:nth-child(2){
+    width: 30px;
+    height: 3.3px;
+    background: #fafafa;
+    margin-bottom: 4px;
+  }
+  .burger.active span:nth-child(2){
+    opacity: 0;
+  }
+  .burger.active span:first-child{
+    transform: rotate(-45deg) translate(-5px ,5px);
+  }
+  .burger.active span:last-child{
+    transform: rotate(45deg) translate(-5px ,-5px);
+  }
+  .usernav{
+
+      position: fixed;
+      flex-direction: column;
+      top: 0;
+      left: -60%;
+      background: #0000008e;
+      height: 100vh;
+      z-index: 100;
+
+  }
+  .usernav.active{
+    color:#fff;
+
+     position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0%;
+    background: #212529;
+    height: 100vh;
+    width: 200px;
+    z-index: 100;
+
+} .usernav.active a:hover{
+  background: #ffffff;
+}
+}
+
+@media (max-width:600px){
+  
+    .modal__content{
+      display: block;
+      width: 60vh;
+    }
+    .rewiew-form input{
+      width: 100% !important ;
+    }
+    .rewiew-form{
+      flex-direction: column;
+    }
+    .rewiew-form button{
+      margin-top: 1rem;
+    }
+  
+}
+@media (max-width:490px){
+  .modal__content{
+    display: block;
+    width: 40vh;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +226,157 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.profile_sidebar{
+  background: #ffffff;
+}
+.profile_sidebar a{
+  text-decoration: none;
+  color:#000;
+  padding: 10px;
+}
+.btn{
+  color:#Fff;
+}
+.modals{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+}
+.modal-content{
+  background: #fffcfc;
+}
+
+.header-style{
+  background: url('https://images.fineartamerica.com/images-medium-large-5/window-view-from-a-mountain-house-bernardo-gimenez.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter:brightness(90%);
+  background-size: cover;
+  height: 90vh;
+}
+
+.card{
+  cursor: pointer;
+}
+.fa-heart{
+  right:0;
+  margin: 10px;
+  color: #fff;
+}
+.header_nav{  
+  top: 0;
+  width: 100%;
+  z-index:455 ;
+  color:#fff;
+    background: #202937;;
+  }
+.logout{
+  background: #3d70c7;
+  padding: 4px 14px;
+  border-radius:10px;
+  color:#fff;
+  border:none;
+}
+.payment{
+  border:1px solid #d1d1d1;
+  box-shadow:1px 1px 4px gray;
+  border-radius:7px;
+  width: 100%;
+  max-width: 350px;
+  padding: 1rem;
+  position: -webkit-sticky; /* Для поддержки браузеров на базе WebKit */
+  position: sticky;
+  padding: 10px;
+  font-weight: bold;
+}
+.payment input{
+  border-radius:6px;
+  outline: none;
+  height: 40px;
+  border:1px solid gray
+}
+.payment button{
+  border:none;
+  margin-top: 5px;
+}
+.viewers{
+  padding:0 1rem ;
+}
+.viewers input{
+  border-radius:6px;
+  outline: none;
+  padding-left: 10px;
+  height: 40px;
+  border:1px solid gray
 }

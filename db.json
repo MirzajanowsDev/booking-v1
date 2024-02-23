@@ -1,0 +1,590 @@
+{
+  "articles": [
+    {
+      "id": 1708710088147,
+      "slug": 1708710088147,
+      "title": "101",
+      "body": "2",
+      "description": "Комфорт",
+      "author": {
+        "username": "faruh",
+        "bio": "",
+        "image": "",
+        "following": false
+      },
+      "viewers": [],
+      "favorited": "Свободен",
+      "color": "#009900",
+      "img": "https://studio-mint.com.kg/sites/default/files/images/2021/12/20211013-5.jpg",
+      "createdAt": "",
+      "price": "1000"
+    }
+  ],
+  "PriceRoom": [
+    {
+      "id": 1,
+      "name": "Эконом",
+      "title": 1000,
+      "sub_title": 1200
+    },
+    {
+      "title": "1500",
+      "sub_title": "250",
+      "name": "Комфорт",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Премиум",
+      "title": 1000,
+      "sub_title": 1200
+    }
+  ],
+  "users": [
+    {
+      "username": "fedya",
+      "email": "mirzajanow@gmail.coms",
+      "password": "mirzajanows@gmail.com",
+      "bio": "",
+      "createdAt": "2024-02-06T17:11:40.088Z",
+      "userId": 1707239500088,
+      "token": "bc3ba3a1-16af-46ca-8eb7-e339115350bf",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-06T17:11:40.131Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:27:49.345Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:31:09.801Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-08T12:25:10.485Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-06T17:11:40.131Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:27:49.345Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:31:09.801Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-08T12:25:10.485Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-06T17:11:40.131Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:27:49.345Z"
+        },
+        {
+          "action": "забронировал 103 ",
+          "timestamp": "2024-02-06T17:31:09.801Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-08T12:25:10.485Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 2
+    },
+    {
+      "username": "abdulaziz",
+      "email": "abdulaziz@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-06T17:59:46.993Z",
+      "userId": 1707242386993,
+      "token": "edfd45f0-9430-4991-be38-67401bca0425",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-06T17:59:47.021Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-19T18:25:22.848Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-19T18:58:13.634Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-19T19:27:30.478Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 3
+    },
+    {
+      "username": "alskdksadk",
+      "email": "mirzajanowa@gmail.com",
+      "password": "askdlakdasd",
+      "bio": "",
+      "createdAt": "2024-02-06T18:28:36.860Z",
+      "userId": 1707244116860,
+      "token": "d6dcf057-ac8a-48be-80b6-4b69685ea76f",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-06T18:28:36.891Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 4
+    },
+    {
+      "username": "faruh",
+      "email": "mirzajanows@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-08T06:32:03.042Z",
+      "userId": 1707373923042,
+      "token": "b837c603-8392-4ef1-8abb-d316816c9894",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:32:03.077Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:36:24.228Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:48:30.213Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:32:03.077Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:36:24.228Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:48:30.213Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:32:03.077Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:36:24.228Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:48:30.213Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:32:03.077Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:36:24.228Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:48:30.213Z"
+        },
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:32:03.077Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:36:24.228Z"
+        },
+        {
+          "action": "login",
+          "timestamp": "2024-02-08T06:48:30.213Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-08T16:30:11.004Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-09T14:43:43.638Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-09T16:33:11.971Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T07:59:01.818Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T08:13:55.661Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T09:14:22.289Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T14:54:15.819Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-13T05:16:14.276Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-13T07:31:38.595Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-13T08:36:34.325Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-13T16:18:33.660Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-18T16:40:59.226Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-19T19:02:55.427Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-20T06:12:37.974Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-20T07:22:06.338Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-20T07:54:49.118Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-23T17:21:49.609Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 5
+    },
+    {
+      "username": "fas",
+      "email": "a2@gmail.com",
+      "password": "dasddasd",
+      "bio": "",
+      "createdAt": "2024-02-08T06:34:30.599Z",
+      "userId": 1707374070599,
+      "token": "58861682-8d8e-4615-8fd1-e24aa7578672",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T06:34:30.934Z"
+        }
+      ],
+      "isSelect": false,
+      "id": 6
+    },
+    {
+      "username": "nur",
+      "email": "br@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-08T08:27:07.156Z",
+      "userId": 1707380827156,
+      "token": "daf1f7ef-08ef-4ffb-94c8-a08684b109c9",
+      "room": "",
+      "history": [
+        {
+          "action": "registration",
+          "timestamp": "2024-02-08T08:27:07.183Z"
+        },
+        {
+          "action": "Вы успешно оформили 202 комнату",
+          "timestamp": "2024-02-08T12:20:42.560Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 7
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail.conm",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-09T07:40:42.293Z",
+      "userId": 1707464442293,
+      "token": "3ead10f7-0a0f-4138-8b83-0af4b4c24f21",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-09T07:40:42.324Z"
+        }
+      ],
+      "isSelect": false,
+      "id": 8
+    },
+    {
+      "username": "faruh2",
+      "email": "mirzajanows@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-09T14:44:58.888Z",
+      "userId": 1707489898888,
+      "token": "817fe080-3259-4606-ac00-ae2f57284f33",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-09T14:44:58.924Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 9
+    },
+    {
+      "username": "red",
+      "email": "red@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-12T07:56:11.456Z",
+      "userId": 1707724571456,
+      "token": "a3bcf822-d163-4330-9b73-ca6a9b06f125",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-12T07:56:11.492Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T08:01:01.334Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-12T09:05:42.389Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 10
+    },
+    {
+      "username": "mirzajanow",
+      "email": "mirzajanows@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-12T09:06:09.202Z",
+      "userId": 1707728769202,
+      "token": "ff86a4b3-7669-4f55-8a02-2a0d22615d16",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-12T09:06:09.236Z"
+        }
+      ],
+      "isSelect": false,
+      "id": 11
+    },
+    {
+      "username": "asd",
+      "email": "asd@gmail.cpm",
+      "password": "asdasdsadasd",
+      "bio": "",
+      "createdAt": "2024-02-12T09:07:33.102Z",
+      "userId": 1707728853102,
+      "token": "ed83ad25-ea12-4590-a8fd-ee8f4f9b564f",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-12T09:07:33.119Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 12
+    },
+    {
+      "username": "sherzod",
+      "email": "Test@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-12T09:10:15.830Z",
+      "userId": 1707729015830,
+      "token": "2473f628-721e-4795-9f51-e6653f6aa6fe",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-12T09:10:15.864Z"
+        },
+        {
+          "action": "забронировал 209 ",
+          "timestamp": "2024-02-12T09:12:23.860Z"
+        },
+        {
+          "action": "забронировал 209 ",
+          "timestamp": "2024-02-12T09:12:37.011Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 13
+    },
+    {
+      "username": "react",
+      "email": "treee@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-12T16:16:45.232Z",
+      "userId": 1707754605232,
+      "token": "574fea5b-f19f-4b3f-9fea-46f5c33aba3b",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-12T16:16:45.269Z"
+        }
+      ],
+      "isSelect": false,
+      "id": 14
+    },
+    {
+      "username": "asdasd",
+      "email": "asd@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-13T08:23:03.616Z",
+      "userId": 1707812583616,
+      "token": "82959a73-ee6a-4a8b-9f9a-5999122b8e55",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-13T08:23:03.634Z"
+        }
+      ],
+      "isSelect": false,
+      "id": 15
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "12345678",
+      "bio": "",
+      "createdAt": "2024-02-20T07:49:34.412Z",
+      "userId": 1708415374412,
+      "token": "0a6a447c-3955-470c-b16c-37652e8245e9",
+      "room": "",
+      "history": [
+        {
+          "action": "Вы успешно зарегистрирововались",
+          "timestamp": "2024-02-20T07:49:34.438Z"
+        },
+        {
+          "action": "Вы успешно вошли в Аккаунт",
+          "timestamp": "2024-02-20T07:58:43.478Z"
+        }
+      ],
+      "isSelect": true,
+      "id": 16
+    }
+  ],
+  "Admin": {
+    "username": "faruh",
+    "email": "mirzajanows@gmail.com",
+    "password": "12345678",
+    "bio": "",
+    "createdAt": "2024-02-06T17:07:16.515Z",
+    "userId": 1707239236515,
+    "token": "921e5a12-3aaa-4774-866f-8b40daa04b5f",
+    "room": "",
+    "history": [
+      {
+        "action": "registration",
+        "timestamp": "2024-02-06T17:07:16.549Z"
+      },
+      {
+        "action": "login",
+        "timestamp": "2024-02-06T18:00:52.764Z"
+      },
+      {
+        "action": "login",
+        "timestamp": "2024-02-06T18:10:04.345Z"
+      },
+      {
+        "action": "login",
+        "timestamp": "2024-02-06T18:30:07.738Z"
+      }
+    ],
+    "isSelect": true,
+    "id": 1
+  },
+  "Wallet": [
+    {
+      "userId": 12,
+      "id": 1
+    },
+    {
+      "userId": 13,
+      "id": 2
+    }
+  ],
+  "viewers": [
+    {
+      "user": "faruh",
+      "review": "Очень красивая, большая квартира. Супермаркет очень близко. Чуть дальше от центра города.",
+      "id": 3
+    },
+    {
+      "user": "faruh",
+      "review": "Очень красивая, большая квартира. Супермаркет очень близко. Чуть дальше от центра города.",
+      "data": "2024-02-20T07:08:33.667Z",
+      "id": 4
+    },
+    {
+      "user": "test",
+      "review": "Очень красивая, большая квартира. Супермаркет очень близко. Чуть дальше от центра города.",
+      "data": "2024-02-20T07:51:59.399Z",
+      "id": 5
+    },
+    {
+      "user": "test",
+      "review": "Очень красивая, большая квартира. Супермаркет очень близко. Чуть дальше от центра города.Очень красивая, большая квартира. Суперма",
+      "data": "2024-02-20T07:52:11.190Z",
+      "id": 6
+    },
+    {
+      "user": "test",
+      "review": "Очень красивая, большая квартира. Супермаркет очень близко. Чуть дальшОчень красивая, большая квартира. Супермае от центра города.",
+      "data": "2024-02-20T07:52:25.149Z",
+      "id": 7
+    }
+  ]
+}
